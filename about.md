@@ -12,7 +12,7 @@ permalink: /about/
 
 ### Careers
 
-Dec 2019 ~ Recent / Cross Angle / UI/UX Designer
+Dec 2019 ~ Recent / Cross Angle / UI/UX Designer<br />
 Apr 2012 ~ Nov 2019 / Web Designer, UI Designer and Graphic Designer
 
 ### Contact me
