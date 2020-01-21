@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 한국에서 Digital Product를 디자인하고 있습니다.<br />
-가끔 그림을 그리고, 사색을 즐깁니다.<br /><br />
+가끔 그림을 그리고, 사색을 즐깁니다.<br />
 
 ### Careers
 
