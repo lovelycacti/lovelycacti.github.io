@@ -9,8 +9,8 @@ permalink: /about/
 
 ### Careers
 
-- **Dec 2019 ~ Recent** UI/UX Designer at Cross Angle
-- **Apr 2012 ~ Nov 2019** Web, Graphic and UI Designer
+- **Dec 2019 ~ Recent** &nbsp;&nbsp; UI/UX Designer / Cross Angle
+- **Apr 2012 ~ Nov 2019** &nbsp; Web, Graphic and UI Designer
 
 ### Tools
 
