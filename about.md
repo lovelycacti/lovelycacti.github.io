@@ -9,8 +9,18 @@ permalink: /about/
 
 ### Careers
 
-Dec 2019 ~ Recent / Cross Angle / UI/UX Designer<br />
-Apr 2012 ~ Nov 2019 / Web Designer, UI Designer and Graphic Designer
+- **Dec 2019 ~ Recent** UI/UX Designer at Cross Angle
+- **Apr 2012 ~ Nov 2019** Web, Graphic and UI Designer
+
+### Tools
+
+- Notion : 개인&업무에 관한 모든 것들을 기록
+- Balsamiq : Wireframe 디자인
+- Sketch & Zeplin : UI 디자인
+- Photoshop : Bitmap 기반의 Graphic 작업
+- Illustrator : Vector 기반의 Graphic 작업
+- InVision : Lo-fi Prototype 작업
+- Keynote : 문서 작업
 
 ### Contact me
 
