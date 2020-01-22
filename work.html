@@ -5,7 +5,7 @@ permalink: /work/
 ---
 
 <div class="posts">
-  {% if site.categories = work %}
+  {% if post.categories == work %}
     {% for post in site.posts %}
       <article class="post">
         <p>{{ post.categories }}</p>
