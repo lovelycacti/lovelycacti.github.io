@@ -49,6 +49,14 @@ url:
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: ""
 
+# Category, Tag
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
 #
 # !! You don't need to change any of the configuration flags below !!
 #
