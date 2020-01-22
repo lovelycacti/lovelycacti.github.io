@@ -5,17 +5,19 @@ permalink: /work/
 ---
 
 <div class="posts">
-  {% for post in site.work %}
-    <article class="post">
+  {% for post in site.posts %}
+    {% for work in page.categories %}
+      <article class="post">
 
-      <!--h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1-->
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+        <!--h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1-->
+        <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
+        <div class="entry">
+          {{ post.excerpt }}
+        </div>
 
-      <!--a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a-->
-    </article>
+        <!--a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a-->
+      </article>
+    {% endfor %}
   {% endfor %}
 </div>
