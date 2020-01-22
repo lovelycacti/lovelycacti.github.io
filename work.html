@@ -5,8 +5,8 @@ permalink: /work/
 ---
 
 <div class="posts">
-  {% for post in site.posts %}
-    {% if site.categories = work &}
+  {% if site.categories = work %}
+    {% for post in site.posts %}
       <article class="post">
         <p>{{ post.categories }}</p>
         <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
