@@ -6,7 +6,7 @@ permalink: /work/
 
 <div class="posts">
   {% for post in site.posts %}
-    {% for work in page.categories %}
+    {% for work in post.categories %}
       <article class="post">
 
         <!--h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1-->
