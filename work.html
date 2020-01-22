@@ -4,19 +4,24 @@ title: Work
 permalink: /work/
 ---
 
-{% for cat in site.category-list %}
-### {{ cat }}
-<ul>
-  {% for page in site.pages %}
-    {% if page.categories == work %}
-      {% for pc in page.categories %}
-        {% if pc == cat %}
-          <p>{{ post.categories }}</p>
-          <li><a href="{{ page.url }}">{{ page.title }}</a></li>
-        {% endif %}   <!-- cat-match-p -->
-      {% endfor %}  <!-- page-category -->
-    {% endif %}   <!-- resource-p -->
-  {% endfor %}  <!-- page -->
-</ul>
-{% endfor %}  <!-- cat -->
 
+
+<div class="posts">
+  {% for cat in site.category-list %}
+    {% if cat == work %}
+      {% for cat in site.posts %}
+        <article class="post">
+          <p>{{ post.categories }}</p>
+          <!--h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1-->
+          <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+          <div class="entry">
+            {{ post.excerpt }}
+          </div>
+
+          <!--a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a-->
+        </article>
+      {% endfor %}
+    {% endfor %}
+  {% endfor %}
+</div>
