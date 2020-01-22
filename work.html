@@ -8,7 +8,7 @@ permalink: /work/
 ### {{ cat }}
 <ul>
   {% for page in site.pages %}
-    {% if page.resource == true %}
+    {% if page.categories == work %}
       {% for pc in page.categories %}
         {% if pc == cat %}
           <p>{{ post.categories }}</p>
