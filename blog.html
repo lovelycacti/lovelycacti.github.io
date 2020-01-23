@@ -13,6 +13,7 @@ permalink: /blog/
           <div class="entry">{{ post.excerpt }}</div>
           <!--a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a-->
         </article>
+      {% else if cat != cat | blog %}
       {% endfor %}
     {% endfor %}
   {% endfor %}
