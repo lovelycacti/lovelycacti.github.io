@@ -6,7 +6,7 @@ permalink: /blog/
 
 <div class="posts">
   {% for post in site.posts %}
-    {% for cat in post.categories | first %}
+    {% for cat in site.category-list | first %}
       <article class="post">
         <p>{{ cat }}</p>
         <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
