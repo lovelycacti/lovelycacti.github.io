@@ -5,17 +5,14 @@ permalink: /blog
 ---
 
 <div class="posts">
-  {% for post in site.posts %}
-    {% for cat in post.category-list %}
-      {% if cat == cat | blog %}
-        <article class="post">
-          <p>{{ cat }}</p>
-          <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-          <div class="entry">{{ post.excerpt }}</div>
-          <!--a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a-->
-        </article>
-      {% else if cat != cat | blog %}
-      {% endfor %}
+  { if site.category == blog %}
+    {% for post in site.posts %}
+      <article class="post">
+        <p>{{ cat }}</p>
+        <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+        <div class="entry">{{ post.excerpt }}</div>
+        <!--a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a-->
+      </article>  
     {% endfor %}
   {% endfor %}
 </div>
