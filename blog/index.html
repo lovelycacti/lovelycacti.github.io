@@ -5,7 +5,7 @@ permalink: /blog
 ---
 
 <div class="posts">
-  { if site.category == blog %}
+  {% if site.category == blog %}
     {% for post in site.posts %}
       <article class="post">
         <p>{{ cat }}</p>
