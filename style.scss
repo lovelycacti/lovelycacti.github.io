@@ -83,9 +83,6 @@ h4 {
 p {
   margin: 12px 0 36px;
   line-height:1.5;
-  @include mobile {
-    font-size: 14px;
-  }
 }
 
 a {
@@ -100,10 +97,6 @@ a {
 ul, ol {
   margin: 15px 0;
   padding-left: 30px;
-  
-  @include mobile {
-    font-size: 14px;
-  }
 }
 
 ul {
