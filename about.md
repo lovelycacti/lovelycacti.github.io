@@ -12,14 +12,12 @@ permalink: /about/
 ### Bio
 평범하게 좋아하는 일을 하며 살아가는 디자이너입니다.<br />
 현재는 Graphic Interface를 디자인하고 있고, 점차 더 많은 영역에 도전하고 싶습니다.
-<hr>
 
 ### Careers
 <ul class="about">
   <li><b>Dec 2019 ~ Recent</b> &nbsp;&nbsp;&nbsp;&nbsp; UI/UX Designer / Cross Angle</li>
   <li><b>Apr 2012 ~ Nov 2019</b> &nbsp; Designer (Web, App, Graphic)</li>
 </ul>
-<hr>
 
 ### Tools
 - Notion : 개인&업무에 관한 모든 것들을 기록
