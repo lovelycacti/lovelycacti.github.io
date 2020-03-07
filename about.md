@@ -27,4 +27,3 @@ permalink: /about/
 - Illustrator : <code>Vector</code> 기반의 Graphic 작업
 - InVision : Lo-fi <code>Prototype</code> 작업
 - Keynote : 문서 작업
-.
