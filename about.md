@@ -12,11 +12,9 @@ permalink: /about/
 <ul style="list-style:none;">
   <li style="border-top:1px solid $lightGray;"><b>Dec 2019 ~ Recent</b> &nbsp;&nbsp;&nbsp;&nbsp; UI/UX Designer / Cross Angle</li>
   <li style="border-top:1px solid $lightGray;"><b>Apr 2012 ~ Nov 2019</b> &nbsp; Designer (Web, App, Graphic)</li>
-</ui>
-<br />
+</ul>
 
 ### Tools
-
 - Notion : 개인&업무에 관한 모든 것들을 기록
 - Balsamiq : <code>Wireframe</code> 작업
 - Sketch & Zeplin : <code>UI</code> 디자인
