@@ -18,8 +18,8 @@ html {
 }
 
 body {
-	background: $white;
-  font: 18px/1.4 $helvetica;
+  background: $white;
+  font: 16px/1.5 $helvetica;
   color: $darkGray;
 }
 
@@ -48,50 +48,40 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 1.66rem;
   line-height: 1.5;
   a {
     color: inherit;
   }
-  @include mobile {
-    font-size: 24px;
-  }
 }
 
 h2 {
-  font-size: 24px;
-  @include mobile {
-    font-size: 20px;
-  }
+  font-size: 1.33rem;
 }
 
 h3 {
-  font-size: 20px;
-  @include mobile {
-    font-size: 18px;
-  }
+  font-size: 1rem;
 }
 
 h4 {
-  font-size: 18px;
+  font-size: 0.9rem;
   color: $gray;
-  @include mobile {
-    font-size: 16px;
-  }
 }
 
 p {
   margin: 12px 0 36px;
-  line-height:1.5;
+  line-height: 1.5;
+  font-size: 0.85rem;
 }
 
 a {
   color: $black;
   text-decoration: none;
-	cursor: pointer;
+  cursor: pointer;
   &:hover, &:active {
     opacity: 0.8;
   }
+  font-size: inherit;
 }
 
 ul, ol {
@@ -337,11 +327,10 @@ footer {
 footer .left {
   float:left;
   font-weight:500;
-  font-size:14px;
+  font-size: 0.9rem;
   color:#bbb;
   @include mobile {
     padding-left:24px;
-    font-size:12px;
   }
 }
 
@@ -349,17 +338,13 @@ footer .right {
   float:right;
   @include mobile {
     padding-right:24px;
-    font-size:12px;
   }
 }
 
 footer i {
-  font-size: 14px;
+  font-size: 0.9rem;
   color: #bbb;
   padding-right: 12px;
-  @include mobile {
-    font-size:12px;
-  }
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
