@@ -9,8 +9,10 @@ permalink: /about/
 <br />
 
 ### Careers
-- **Dec 2019 ~ Recent** &nbsp;&nbsp;&nbsp;&nbsp; UI/UX Designer / Cross Angle
-- **Apr 2012 ~ Nov 2019** &nbsp; Web, Graphic and UI Designer
+<ul style="list-style:none;">
+  <li style="border-top:1px solid $lightGray;"><b>Dec 2019 ~ Recent</b> &nbsp;&nbsp;&nbsp;&nbsp; UI/UX Designer / Cross Angle</li>
+  <li style="border-top:1px solid $lightGray;"><b>Apr 2012 ~ Nov 2019</b> &nbsp; Designer (Web, App, Graphic)</li>
+</ui>
 <br />
 
 ### Tools
