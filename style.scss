@@ -331,7 +331,8 @@ nav {
   border-top:1px solid $lightGray;
   height:80px;
   bottom:0;
-  position:sticky;
+  position:relative;
+  visibility:visible;
 }
 
 footer {
@@ -342,16 +343,29 @@ footer {
 
 footer .left {
   float:left;
+  font-size:14px;
+  color:$gray;
+  @include mobile {
+    padding-left:24px;
+    font-size:12px;
+  }
 }
 
 footer .right {
   float:right;
+  @include mobile {
+    padding-right:24px;
+    font-size:12px;
+  }
 }
 
 footer i {
-  font-size: 24px;
-  color: $darkerGray;
+  font-size: 14px;
+  color: $gray;
   padding-right: 12px;
+  @include mobile {
+    font-size:12px;
+  }
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
