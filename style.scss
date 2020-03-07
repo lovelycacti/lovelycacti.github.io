@@ -336,6 +336,7 @@ footer {
 
 footer .left {
   float:left;
+  font-weight:400;
   font-size:14px;
   color:$gray;
   @include mobile {
