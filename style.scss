@@ -14,7 +14,7 @@
 /**************/
 
 html {
-  font-size: 150%;
+  font-size: 100%;
 }
 
 body {
@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 1.66rem;
+  font-size: 2rem;
   line-height: 1.5;
   a {
     color: inherit;
@@ -56,22 +56,22 @@ h1 {
 }
 
 h2 {
-  font-size: 1.33rem;
+  font-size: 1.8rem;
 }
 
 h3 {
-  font-size: 1rem;
+  font-size: 1.66rem;
 }
 
 h4 {
-  font-size: 0.9rem;
+  font-size: 1.33rem;
   color: $gray;
 }
 
 p {
   margin: 12px 0 36px;
   line-height: 1.5;
-  font-size: 0.85rem;
+  font-size: 1rem;
 }
 
 a {
