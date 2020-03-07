@@ -116,6 +116,12 @@ ul.about li {
   border-top:1px solid $lightGray;
 }
 
+li {
+  @include mobile {
+    font-size;14px;
+  }
+}
+
 ol {
   list-style-type: decimal;
 }
