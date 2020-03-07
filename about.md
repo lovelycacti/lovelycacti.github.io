@@ -6,14 +6,11 @@ permalink: /about/
 
 <h1>한국에서 Digital Product를 디자인하고 있습니다.<br />
 가끔 그림을 그리고, 사색을 즐깁니다.</h1>
-
 <br />
 
 ### Careers
-
 - **Dec 2019 ~ Recent** &nbsp;&nbsp;&nbsp;&nbsp; UI/UX Designer / Cross Angle
 - **Apr 2012 ~ Nov 2019** &nbsp; Web, Graphic and UI Designer
-
 <br />
 
 ### Tools
