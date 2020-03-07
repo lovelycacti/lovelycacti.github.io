@@ -326,8 +326,15 @@ nav {
 
 footer {
   padding: 20px 0;
-  text-align: right;
   border-top:1px solid $lightGray;
+}
+
+footer .left {
+  float:left;
+}
+
+footer .right {
+  float:right;
 }
 
 footer i {
