@@ -4,7 +4,7 @@ title: Blog
 permalink: /blog
 ---
 
-<div class="posts" style="height:720px; display:block;">
+<div class="posts" style="min-height:720px; display:block;">
   {% for post in site.categories.blog %}
     <article class="post">
       <a href="{{ site.baseurl }}{{ post.url }}">
