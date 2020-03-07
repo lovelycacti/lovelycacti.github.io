@@ -7,21 +7,21 @@ permalink: /about/
 <h1>한국에서 Digital Product를 디자인하고 있습니다.<br />
 가끔 그림을 그리고, 사색을 즐깁니다.</h1>
 
+<br />
+
 ### Careers
 
 - **Dec 2019 ~ Recent** &nbsp;&nbsp;&nbsp;&nbsp; UI/UX Designer / Cross Angle
 - **Apr 2012 ~ Nov 2019** &nbsp; Web, Graphic and UI Designer
 
+<br />
+
 ### Tools
 
-- **Notion** : 개인&업무에 관한 모든 것들을 기록
-- **Balsamiq** : <code>Wireframe</code> 작업
-- **Sketch & Zeplin** : <code>UI</code> 디자인
-- **Photoshop** : <code>Bitmap</code> 기반의 Graphic 작업
-- **Illustrator** : <code>Vector</code> 기반의 Graphic 작업
-- **InVision** : Lo-fi <code>Prototype</code> 작업
-- **Keynote** : 문서 작업
-
-### Contact me
-
-[lovelycacti@gmail.com](mailto:lovelycacti@gmail.com)
+- Notion : 개인&업무에 관한 모든 것들을 기록
+- Balsamiq : <code>Wireframe</code> 작업
+- Sketch & Zeplin : <code>UI</code> 디자인
+- Photoshop : <code>Bitmap</code> 기반의 Graphic 작업
+- Illustrator : <code>Vector</code> 기반의 Graphic 작업
+- InVision : Lo-fi <code>Prototype</code> 작업
+- Keynote : 문서 작업
