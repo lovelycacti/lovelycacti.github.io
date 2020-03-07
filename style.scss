@@ -173,9 +173,11 @@ img {
   //display:none;
 
   @include mobile {
-    float: none;
-    display: block;
-    margin: 0 auto;
+    width: 32px;
+    height: 32px;
+    //float: none;
+    //display: block;
+    //margin: 0 auto;
   }
 
   img {
@@ -221,10 +223,11 @@ nav {
   font-size: 18px;
 
   @include mobile {
-    float: none;
+    //float: none;
+    float: right;
     margin-top: 9px;
     display: block;
-    font-size: 16px;
+    font-size: 14px;
   }
 
   a {
@@ -235,8 +238,8 @@ nav {
     letter-spacing: 0;
 
     @include mobile {
-      margin: 0 10px;
-      color: $blue;
+      //margin: 0 10px;
+      //color: $blue;
     }
   }
 }
