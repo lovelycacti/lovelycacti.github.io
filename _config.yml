@@ -6,7 +6,7 @@
 name: Songi Lee
 
 # Short bio or description (displayed in the header)
-description: UI/UX designer at South Korea.
+description: UI designer at South Korea.
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://github.com/lovelycacti/lovelycacti.github.io/blob/master/images/img_profile.png?raw=true
@@ -37,7 +37,7 @@ footer-links:
 disqus:
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics:
+google_analytics: UA-81645013-7
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
