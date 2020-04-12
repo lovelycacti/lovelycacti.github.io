@@ -23,7 +23,5 @@ permalink: /about/
 - Notion : 개인&업무에 관한 모든 것들을 기록
 - Balsamiq : <code>Wireframe</code> 작업
 - Sketch & Zeplin : <code>UI</code> 디자인
-- Photoshop : <code>Bitmap</code> 기반의 Graphic 작업
-- Illustrator : <code>Vector</code> 기반의 Graphic 작업
-- InVision : Lo-fi <code>Prototype</code> 작업
-- Keynote : 문서 작업
+- Photoshop & Illustrator : Bitmap, Vector 기반의 <code>Graphic</code> 디자인
+- InVision & Protopie : Lo-fi <code>Prototype</code> 작업
