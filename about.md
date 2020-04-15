@@ -7,7 +7,7 @@ permalink: /about/
 <h1>스타트업에서 디지털 제품을 디자인합니다.<br />
 현재는 그래픽 인터페이스를 디자인하고 있으며, 점차 더 많은 영역에 도전하고 싶습니다.</h1>
 <br />
-![20200307_2](https://user-images.githubusercontent.com/33489620/76146001-47aadc80-60d2-11ea-8b49-aae2e9f6a7c9.png)
+![aboutme](https://user-images.githubusercontent.com/33489620/79338094-9feebd00-7f61-11ea-8834-4923ed454682.png)
 
 ### Careers
 <ul class="about">
