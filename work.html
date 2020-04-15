@@ -11,6 +11,11 @@ permalink: /work
         <h1>{{ post.title }}</h1>
         <div class="entry">{{ post.excerpt }}</div>
         <p>{{ page.date }} | {{ page.tags }}</p>
+        <p>{% if page.tags %}
+            {% for tag in page.tags %}
+              <span class="tag">{{ tag }}</span>
+            {% endfor %}
+          {% endif %}</p>
       </a>
       <!--a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a-->
     </article>
