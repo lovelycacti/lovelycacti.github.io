@@ -213,11 +213,11 @@ img {
 
 .site-info {
   float: left;
-  display:none;
+  display:block;
 
   @include mobile {
     float: none;
-    display: none;
+    display: block;
     margin: 0 auto;
   }
 }
@@ -236,6 +236,7 @@ img {
   margin: -5px 0 0 0;
   color: $gray;
   font-size: 14px;
+  display:none;
 
   @include mobile {
     margin: 3px 0;
