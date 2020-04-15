@@ -312,6 +312,15 @@ nav {
   background-color:$lightGray;
 }
 
+.btn-small {
+  padding:2px 6px;
+  display:inline-block;
+  margin-top:12px;
+  font-size: 15px;
+  color:$blue;
+  background-color:$lightblue;
+}
+
 footer {
   padding: 24px 0;
   max-width:720px;
