@@ -231,6 +231,7 @@ nav {
 
   @include mobile {
     float: none;
+    width:100%;
     // margin-top: 9px;
     display: block;
     font-size: 14px;
@@ -244,7 +245,8 @@ nav {
     letter-spacing: 0;
 
     @include mobile {
-      //margin: 0 10px;
+      margin: 0 10px;
+      text-align:center;
       //color: $blue;
     }
   }
