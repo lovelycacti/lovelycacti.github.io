@@ -4,8 +4,6 @@ title: About
 permalink: /about/
 ---
 
-<h1>Songi Lee</h1>
-<br />
 ![aboutme](https://user-images.githubusercontent.com/33489620/79338094-9feebd00-7f61-11ea-8834-4923ed454682.png)
 
 ### Bio
