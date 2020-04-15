@@ -13,7 +13,7 @@ permalink: /about/
 ### Careers
 - <b>Dec 2019 ~ Recent</b> : UI Designer / Cross Angle
 - <b>Apr 2012 ~ Nov 2019</b> : Designer (Web, App, Graphic)
-<a href="https://www.linkedin.com/in/songi-lee-9977a710b/" target="_blank" class="btn-small">See More</a>
+<br />
 
 ### Tools
 - Notion : 개인&업무에 관한 모든 것들을 기록
