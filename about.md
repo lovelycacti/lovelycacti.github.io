@@ -13,7 +13,6 @@ permalink: /about/
 ### Careers
 - <b>Dec 2019 ~ Recent</b> UI Designer / Cross Angle
 - <b>Apr 2012 ~ Nov 2019</b> Designer (Web, App, Graphic)
-</ul>
 
 ### Tools
 - Notion : 개인&업무에 관한 모든 것들을 기록
