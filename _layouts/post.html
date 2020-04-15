@@ -8,17 +8,17 @@ layout: default
 
   <div class="entry">
     {{ content }}
-    <p>
-      {% if page.tags %}
-        {% for tag in page.tags %}
-          <span class="tag">{{ tag }}</span>
-        {% endfor %}
-      {% endif %}
-    </p>
+    
+    {% if page.tags %}
+      {% for tag in page.tags %}
+        <span class="tag">{{ tag }}</span>
+      {% endfor %}
+    {% endif %}
   </div>
 
   <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
+    <!--{{ page.date | date: "%B %e, %Y" }}-->
+    {{ post.date }}
   </div>
 
   {% include disqus.html %}
