@@ -5,30 +5,21 @@ permalink: /work
 ---
 
 <div class="posts" style="min-height:720px; display:block;">
-  
-  <div>
-    {% for tag in site.data.tags %}
-      <span class="tag" data-tag="{{tag}}">
-        {{ site.data.format[tag] }}
-      </span>
-    {% endfor %}
-  </div>
-  
   {% for post in site.categories.work %}
     <article class="post">
       <a href="{{ site.baseurl }}{{ post.url }}">
         <h1>{{ post.title }}</h1>
         <div class="entry">{{ post.excerpt }}</div>
-        <p>{{ page.date }} | {{ page.tags }}</p>
+        <span class="tag">{{ site.data.format[tag] }}</span>
       </a>
       
-      {% if page.tags %}
+      <!--{% if page.tags %}
         {% for tag in page.tags %}
           {% if site.data.tags contains tag %}
             <span class="tag">{{ site.data.format[tag] }}</span>
           {% endif %}
         {% endfor %}
-      {% endif %}
+      {% endif %}-->
       
       <!--a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a-->
     </article>
