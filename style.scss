@@ -319,6 +319,13 @@ nav {
   visibility:visible;
 }
 
+.tag {
+  padding:2px 2px;
+  font-size:11px;
+  color:$gray;
+  background-color:$lightGray;
+}
+
 footer {
   padding: 24px 0;
   max-width:720px;
