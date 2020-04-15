@@ -240,13 +240,16 @@ nav {
   a {
     margin-left: 20px;
     color: $darkGray;
-    text-align: right;
     font-weight: 700;
+    height:42px;
+    line-height:42px;
+    display:inline-block;
     letter-spacing: 0;
 
     @include mobile {
       margin: 0 10px;
-      text-align:center;
+      height:36px;
+      line-height:36px;
       //color: $blue;
     }
   }
