@@ -9,9 +9,7 @@ permalink: /work
   {% for post in site.categories.work %}
     <article class="post">
       <a href="{{ site.baseurl }}{{ post.url }}">
-        {% if post.contents contains image %}
-          <img src="{{ post.content | image[0] }}">
-        {% endif %}
+        <img src="https://user-images.githubusercontent.com/{{ post.image }}">
         <h1>{{ post.title }}</h1>
         <div class="entry">{{ post.excerpt }}</div>
         {% if post.tags %}
