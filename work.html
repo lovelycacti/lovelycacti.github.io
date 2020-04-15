@@ -5,12 +5,18 @@ permalink: /work
 ---
 
 <div class="posts" style="min-height:720px; display:block;">
+  
+  {% for tag in site.data.tags %}
+    <span class="tag" data-tag="{{tag}}">
+      {{ site.data.format[tag] }}
+    </span>
+  {% endfor %}
+  
   {% for post in site.categories.work %}
     <article class="post">
       <a href="{{ site.baseurl }}{{ post.url }}">
         <h1>{{ post.title }}</h1>
         <div class="entry">{{ post.excerpt }}</div>
-        <span class="tag">{{ site.data.format[tag] }}</span>
       </a>
       
       <!--{% if page.tags %}
