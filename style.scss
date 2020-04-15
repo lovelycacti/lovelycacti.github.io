@@ -225,14 +225,13 @@ img {
 
 nav {
   float: right;
-  margin-top: 16px; // @TODO: Vertically middle align
+  margin-top: 0.3em; // @TODO: Vertically middle align
   font-family: $helveticaNeue;
   font-size: 18px;
 
   @include mobile {
-    //float: none;
-    float: right;
-    margin-top: 9px;
+    float: none;
+    // margin-top: 9px;
     display: block;
     font-size: 14px;
   }
