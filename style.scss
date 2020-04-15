@@ -191,19 +191,6 @@ img {
   }
 }
 
-.site-name img {
-  width: 32px;
-  height: 32px;
-  margin-right: 15px;
-  border-radius: 50%;
-  //display:none;
-
-  @include mobile {
-    display: block;
-    margin: 0;
-  }
-}
-
 .site-info {
   float: left;
   display:block;
