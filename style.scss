@@ -191,23 +191,16 @@ img {
   }
 }
 
-.site-avatar {
-  float: left;
+.site-name img {
   width: 32px;
   height: 32px;
-  // margin-right: 15px;
+  margin-right: 15px;
+  border-radius: 50%;
   //display:none;
 
   @include mobile {
-    width: 16px;
-    height: 16px;
-    //float: none;
-    //display: block;
-    //margin: 0 auto;
-  }
-
-  img {
-    border-radius: 50%;
+    display: block;
+    margin: 0;
   }
 }
 
