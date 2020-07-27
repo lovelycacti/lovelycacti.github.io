@@ -11,7 +11,7 @@ permalink: /about/
 현재는 그래픽 인터페이스를 디자인하고 있으며, 점차 더 많은 영역에 도전하고 싶습니다.
 
 ### Careers
-- <b>Dec 2019 ~ Recent</b> : UI Designer / Cross Angle
+- <b>Dec 2019 ~ Recent</b> : Product Designer / Cross Angle
 - <b>Apr 2012 ~ Nov 2019</b> : Designer (Web, App, Graphic)
 <br />
 
